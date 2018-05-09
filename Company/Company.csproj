@@ -46,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employees.cs" />
+    <Compile Include="Cat\Cat.cs" />
+    <Compile Include="Company\Employees.cs" />
+    <Compile Include="Hostel\Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service.cs" />

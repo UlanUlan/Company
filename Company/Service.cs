@@ -10,6 +10,7 @@ namespace Company
     public struct Service
     {
         public List<Employees> emp;
+        public Cat c;
         private Random rand;
         public void GenerateEmployee()
         {
@@ -26,7 +27,11 @@ namespace Company
                 emp.Add(employe);
             }
         }
-        public void PrintInfo(List<Employees> emp)
+        public void GenerateEmployee()
+        {
+            
+        }
+            public void PrintInfo(List<Employees> emp)
         {
             if (emp != null)
                 foreach (Employees item in emp)
