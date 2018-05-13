@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GeneratorName">
-      <HintPath>..\..\..\..\..\Desktop\GeneratorName.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cat\Cat.cs" />
+    <Compile Include="Cat.cs" />
     <Compile Include="Company\Employees.cs" />
     <Compile Include="Hostel\Student.cs" />
     <Compile Include="Program.cs" />

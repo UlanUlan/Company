@@ -3,33 +3,30 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using GeneratorName;
+
 
 namespace Company
 {
     public struct Service
     {
         public List<Employees> emp;
-        public Cat c;
         private Random rand;
         public void GenerateEmployee()
         {
             emp = new List<Employees>();
             rand = new Random();
-            Generator genr = new Generator();
+            string[] editions = { "Maggie", "Penny", "Saya", "Princess",
+                                  "Abby", "Laila", "Sadie", "Olivia",
+                                  "Starlight", "Talla" };
             for (int i = 0; i < rand.Next(1, 30); i++)
             {
                 Employees employe = new Employees();
-                employe.FullName = genr.GenerateDefault((Gender)rand.Next(0, 1));
+                employe.FullName = editions[rand.Next(editions.Length)];
                 employe.StartDate = DateTime.Now.AddMonths((rand.Next(1, 60) * -1));
                 employe.Salary = rand.Next(30000, 100000) / rand.Next(1, 100);
                 employe.Position = (Vacancies)rand.Next(0, 3);
                 emp.Add(employe);
             }
-        }
-        public void GenerateEmployee()
-        {
-            
         }
             public void PrintInfo(List<Employees> emp)
         {

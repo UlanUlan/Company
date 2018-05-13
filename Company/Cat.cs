@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Company.Cat
+namespace Company
 {
     public enum Food { Fish, Mouse, Bird }
     public struct Cat
@@ -15,7 +15,7 @@ namespace Company.Cat
         {
             if (food == Food.Bird)
                 levelOfSatiety += 3;
-            else if (food == Food.Bird)
+            else if (food == Food.Fish)
                 levelOfSatiety += 2;
             else
                 levelOfSatiety += 1;

@@ -17,6 +17,20 @@ namespace Company
             Console.WriteLine("\n");
             ser.Report2();
 
+            //Cat c = new Cat();
+            //Console.WriteLine("Уровень сытости: " + c.levelOfSatiety);
+            //Console.WriteLine("Съел рыбkу");
+            //c.eatSomething(Food.Fish);
+            //Console.WriteLine("Уровень сытости: " + c.levelOfSatiety);
+            //Console.WriteLine("Съел мышку");
+            //c.eatSomething(Food.Mouse);
+            //Console.WriteLine("Уровень сытости: " + c.levelOfSatiety);
+            //Console.WriteLine("Съел птичку");
+            //c.eatSomething(Food.Bird);
+            //Console.WriteLine("Уровень сытости: " + c.levelOfSatiety);
+
+
+
 
         }
     }
